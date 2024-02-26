@@ -1,0 +1,1027 @@
+@font-face {
+    font-family: 'ubuntu-bold';
+    /*a name to be used later*/
+    src: url('../fonts/Ubuntu-Bold.ttf') format('truetype');
+    /*URL to font*/
+    src: url('../fonts/Ubuntu-Bold.eot') format('embedded-opentype'),
+        url('../fonts/Ubuntu-Bold.woff') format('woff'),
+        url('../fonts/Ubuntu-Bold.svg') format('svg');
+
+}
+
+@font-face {
+    font-family: 'ubuntu-light';
+    /*a name to be used later*/
+    src: url('../fonts/Ubuntu-Light.ttf') format('truetype');
+    /*URL to font*/
+    src: url('../fonts/Ubuntu-Light.eot') format('embedded-opentype'),
+        url('../fonts/Ubuntu-Light.woff') format('woff'),
+        url('../fonts/Ubuntu-Light.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'ubuntu-medium';
+    /*a name to be used later*/
+    src: url('../fonts/Ubuntu-Medium.ttf') format('truetype');
+    /*URL to font*/
+    src: url('../fonts/Ubuntu-Medium.eot') format('embedded-opentype'),
+        url('../fonts/Ubuntu-Medium.eot') format('woff'),
+        url('../fonts/Ubuntu-Medium.eot') format('svg');
+}
+
+.vp-background {
+    background-image: url("../images/bg-red.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+}
+
+.vp-logokiri {
+    padding: 25px 0 0 50px;
+    width: 200px;
+}
+
+.vp-logokanan {
+    width: 200px;
+}
+
+.vp-text {
+    font-family: 'ubuntu-bold';
+    color: #1f1f1f;
+    letter-spacing: 0.49px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    text-rendering: optimizeLegibility;
+
+}
+
+.vp-text-medium {
+    font-family: 'ubuntu-medium';
+    color: #1f1f1f;
+    letter-spacing: 0.49px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    text-rendering: optimizeLegibility;
+
+}
+
+.vp-text-light {
+    font-family: 'ubuntu-light';
+    color: #1f1f1f;
+    letter-spacing: 0.49px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    text-rendering: optimizeLegibility;
+
+}
+
+.vp-lapor{
+    margin-top:1rem;
+    border:none;
+    height: 80%;
+    border-radius: 20px;
+}
+
+.vp-icons{
+    font-size: 50px;
+}
+
+.pd10{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.vp-widget{
+    background-image: url("../images/widget.jpg");
+    border-radius:20px;
+    color:white;
+    cursor:pointer;
+    max-width: 100%;
+    min-width: 100%;
+    display: block;
+}
+
+.vp-button-besar{
+    border-radius:20px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.form-control{
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #ced4da;
+    border-radius:0px;
+}
+
+/*------------------------------------- RESPONSIVE MEDIA -------------------------------*/
+/*--------------------------------------------------------------------------------------*/
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 382px) and (max-device-width: 667px) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 382px) and (max-device-width: 667px) and (orientation: portrait) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 382px) and (max-device-width: 667px) and (orientation: landscape) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 382px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 382px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 382px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (orientation: portrait) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (orientation: landscape) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (orientation: portrait) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (orientation: landscape) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (orientation: portrait) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (orientation: landscape) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* ----------- Google Pixel ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (orientation: portrait) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (orientation: landscape) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* ----------- Google Pixel XL ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (orientation: portrait) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (orientation: landscape) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* ----------- HTC One ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (orientation: portrait) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (orientation: landscape) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* ----------- Windows Phone ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 480px) and (device-height: 800px) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Portrait */
+@media screen and (device-width: 480px) and (device-height: 800px) and (orientation: portrait) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
+
+/* Landscape */
+@media screen and (device-width: 480px) and (device-height: 800px) and (orientation: landscape) {
+    .vp-logokanan2 {
+        display: none;
+    }
+
+    .vp-logodiv {
+        text-align: center;
+    }
+
+    .vp-display {
+        display: none;
+    }
+
+    .vp-logo {
+        text-align: center !important;
+        align-items: center;
+        display: block !important;
+        padding: 10px , 10px , 10px , 10px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+}
